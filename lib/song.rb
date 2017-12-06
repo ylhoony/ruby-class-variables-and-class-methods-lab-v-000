@@ -39,6 +39,4 @@ class Song
     @@artists.uniq.map { |artist| result[artist] = @@artists.count(artist) }
     result
   end
-
-
 end
